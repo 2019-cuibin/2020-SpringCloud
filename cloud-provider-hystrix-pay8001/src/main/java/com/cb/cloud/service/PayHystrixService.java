@@ -1,6 +1,7 @@
 package com.cb.cloud.service;
 
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @author cuibin
@@ -18,4 +19,10 @@ public interface PayHystrixService {
      * @return
      */
     String payHystrix_error();
+
+    /**
+     * 服务的熔断
+     * @return
+     */
+    String payHystrixCircuitBreaker(@PathVariable("id")Integer id);
 }
