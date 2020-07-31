@@ -1,0 +1,11 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      uri: http://localhost:3344/  #此处的路径是Config服务端的访问路径
+      profile: dev  #指定环境
+      label: master #指定分支

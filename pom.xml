@@ -17,6 +17,12 @@
       <module>cloud-provider-pay8002</module>
       <module>cloud-consumer-feign-order80</module>
       <module>cloud-provider-hystrix-pay8001</module>
+      <module>cloud-gateway-gateway9527</module>
+      <module>cloud-config-center-3344</module>
+      <module>cloud-config-client3355</module>
+    <module>cloudalibaba-nacos-pay9001</module>
+      <module>cloudalibaba-nacos-pay9002</module>
+      <module>cloudalibaba-consumer-nacos90</module>
   </modules>
 
   <name>Maven</name>
@@ -66,14 +72,14 @@
         <scope>import</scope>
       </dependency>
 
-      <!-- Spring Cloud Alibaba 2.1.0 -->
-      <!--<dependency>
-        <groupId>org.springframework.cloud</groupId>
+      <!-- Spring Cloud Alibaba 2.2.0 -->
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
         <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-        <version>2.1.0.RELEASE</version>
+        <version>2.2.0.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
-      </dependency>-->
+      </dependency>
 
       <dependency>
         <groupId>com.baomidou</groupId>

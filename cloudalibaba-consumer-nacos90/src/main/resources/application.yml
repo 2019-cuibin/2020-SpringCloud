@@ -1,0 +1,10 @@
+server:
+  port: 90
+
+spring:
+  application:
+    name: cloud-nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
